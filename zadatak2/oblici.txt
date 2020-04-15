@@ -1,0 +1,23 @@
+Solid brush ljubicasta:
+B 100 0 100
+
+Kružnica, koordinate centra 60, 70, r=50:
+C 60 70 50
+
+Linija od (50,60) do (70,80):
+L 50 60 70 80
+
+Promjena boje i debljine ispisa (ljubicasta, debljina 2): // olovka, koristiti samo dash stil
+C S 2 100 0 100
+
+Pravougaonik sa left, top, right i bottom granicama:
+R 10 50 80 30
+
+Hatch brush ljubicasta: // koristiti samo HS_BDIAGONAL stil
+H B 100 0 100
+
+Elipsa sa left, top, right i bottom granicama:
+E 10 50 80 30
+
+Kvadrat , koordinate centra 50,50, dužina stranice 40:
+S 50 50 40
